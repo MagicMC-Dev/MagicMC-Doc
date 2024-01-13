@@ -1,0 +1,19 @@
+{
+  "name": "MagicMC-Doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MagicMC-Dev/MagicMC-Doc.git",
+  "author": "INSide_734 <3217962725@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.11",
+    "vitepress": "^1.0.0-rc.36",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
